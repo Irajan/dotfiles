@@ -1,3 +1,3 @@
-require("remap")
-require("plugins")
-require("setter")
+require("core.keymaps")
+require("core.options")
+require("plugins.setup")
