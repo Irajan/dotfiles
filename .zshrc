@@ -86,11 +86,14 @@ alias vim=nvim
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias c='clear'
+alias hg='history|grep '
 
 # Alises for docker
 alias dcup='docker compose up'
+alias dcdown='docker compose down'
 alias dimages='docker images'
-alias .='xdg-open .'
+alias ps='docker ps'
 alias gpodr='git pull origin dev --rebase'
 
 # Initialize terminal with starship
@@ -99,7 +102,6 @@ eval "$(starship init zsh)"
 # Configure jump for easy navigation
 eval "$(jump shell)"
 alias cdd='j'
-
 
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
