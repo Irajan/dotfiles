@@ -39,6 +39,9 @@ sudo apt-get install neovim
 
 cp -r ./nvim ~/.config
 
+echo "Install ripgrep binary for fuzzy finding"
+sudo apt-get install ripgrep
+
 echo "Installing tmux"
 sudo apt install tmux
 
