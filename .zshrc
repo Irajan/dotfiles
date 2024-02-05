@@ -125,3 +125,9 @@ alias cdd='j'
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Start tmux if it's not already running
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+    tmux
+fi
+
