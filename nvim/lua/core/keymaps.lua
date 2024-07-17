@@ -4,6 +4,8 @@ vim.g.mapleader = " "
 vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
 
+vim.keymap.set("i", "jj", "<ESC>")
+
 -- paste from specific registers
 vim.keymap.set({ "n", "v" }, "p", [["0p]])
 vim.keymap.set({ "n", "v" }, "<leader>pn", [[""p]])
